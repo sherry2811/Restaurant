@@ -1,0 +1,18 @@
+h1 {
+  color:red;
+}
+h2 {
+  color:green;
+  background-color:orange;
+}
+p {
+  color:blue;
+  font-family:Helvetica;
+  font-size:16px;
+}
+ul {
+  background-color:yellow;
+}
+ol {
+  background-color:teal;
+}
