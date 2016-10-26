@@ -1,28 +1,46 @@
-<style>
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white;
+  header {
+      text-align:center;
+      background:url("http://www.villandry.com/wp-content/uploads/2016/07/4612701604.jpg");
+      background-size:cover;
+      height:400px;
+      color:white;
     }
     h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+      font-size: 80px;
+      font-family: 'Special Elite', cursive;
+      margin-top: 0px;
+      padding: 160px 0;
     }
     ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
+      list-style-type:none;
+      top:0;
+      margin:0;
+      width:100%;
+      background: rgba(0,0,0,0.3);
+      position: fixed;
     }
     li {
       display: inline;
-      padding: 0px 10px 0px 10px;
+      float:right;
+    }
+    li a {
+      display:block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      margin-left:0px;
+      margin-right:0px;
+      padding-right: 55px;
+      padding-left: 5px;
+      text-decoration: none;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size:18px;
+    }
+    a:hover{
+      color:#DC143C;
+    }
+    body {
+      margin:0;
     }
     article {
       max-width: 500px;
@@ -39,4 +57,3 @@
         display: block;
       }
     }
-  </style>
