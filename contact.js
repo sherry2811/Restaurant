@@ -1,18 +1,20 @@
-function initialize() {
-            var mapOptions = {
-                center: new google.maps.LatLng(28.1823294, -82.352912),
-                zoom: 9,
-                mapTypeId: google.maps.MapTypeId.HYBRID,
-                scrollwheel: false,
-                draggable: false,
-                panControl: true,
-                zoomControl: true,
-                mapTypeControl: true,
-                scaleControl: true,
-                streetViewControl: true,
-                overviewMapControl: true,
-                rotateControl: true,
-            };
-            var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
+
+
+function initMap() {
+  var myLatLng = {lat: 56.341087, lng: -2.801291};
+  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    zoom: 15,
+    center: myLatLng,
+    zoomControl: true,
+    scaleControl: true,
+    mapTypeControl: true,
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Our Café'
+  });
+
+ }
+
